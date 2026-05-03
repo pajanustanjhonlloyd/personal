@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: radial-gradient(circle, #1f5cff, #001133, black);
+    height:100vh;
+}
+
+/* NAVBAR */
+.navbar{
+    width:100%;
+    background:black;
+    padding:20px;
+    text-align:right;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:30px;
+    font-size:35px;
+    font-weight:bold;
+    font-family:Georgia;
+}
+
+/* Navigation */
+
+
+/* About Section */
+.about-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:80px;
+    padding:60px;
+}
+
+.image-box img{
+    width:320px;
+    height:500px;
+    object-fit:cover;
+    border:2px solid white;
+}
+
+.text-box{
+    width:450px;
+}
+
+.text-box h1{
+    font-size:55px;
+    margin-bottom:30px;
+    font-family:Georgia;
+}
+
+.text-box p{
+    font-size:28px;
+    line-height:1.5;
+}
+
+/* MAIN SECTION */
+.main{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:50px;
+    padding:20px;
+}
+
+/* LEFT IMAGE */
+.left img{
+    width:350px;
+    height:500px;
+    object-fit:cover;
+    background:white;
+    padding:10px;
+}
+
+/* RIGHT TEXT */
+.right{
+    width:500px;
+    color:white;
+}
+
+.right h1{
+    font-size:60px;
+    font-family:Georgia;
+    margin-bottom:20px;
+}
+
+.right p{
+    font-size:25px;
+    line-height:40px;
+}
+
+
+
+/* Skills Section */
+.skills{
+    text-align:center;
+    padding:50px;
+}
+
+.skills h1{
+    font-size:55px;
+    margin-bottom:50px;
+    font-family:Georgia;
+}
+
+.box-container{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+}
+
+.card{
+    width:300px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    border:2px solid white;
+}
+
+.card p{
+    margin-top:20px;
+    font-size:20px;
+    line-height:1.4;
+    text-align:left;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Section Styling */
+.contact {
+    height: 100vh;
+    background: radial-gradient(circle, #1e4db7, #020d2b);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact h1 {
+    font-size: 40px;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+}
+
+/* Layout */
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    width: 70%;
+    margin: auto;
+}
+
+/* Box Styling */
+.contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Image Styling (circle look) */
+.contact-box img {
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+    object-fit: contain;
+}
+
+/* Text */
+.contact-box p {
+    font-size: 18px;
+}
